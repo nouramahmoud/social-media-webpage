@@ -1,0 +1,260 @@
+body{
+ background-image: url("photo1.jpeg");
+
+ background-size:100% auto;
+ background-attachment: cover;
+ background-color: #F8E7F7;
+ width: 100%;
+ height: auto;
+ background-repeat: no-repeat;
+ font-family:"Roboto";
+ }
+ *{
+  box-sizing: border-box;
+  font-family:"Roboto";
+  margin:0px;
+ padding:0px;
+ width:auto;
+ height:auto;
+}
+
+.homelink{
+
+  color: #FFE2E1;
+  text-decoration: none;
+  margin-left: 66%;
+  margin-top: 35%;
+  clear: right;
+  margin-right: 30px; 
+  font-size: 140%;
+
+
+ }
+
+ .delete{
+  color: #FFE2E1;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-top: 35%;
+  clear: right;
+  margin-right: 30px; 
+  font-size: 140%;
+ }
+
+ .profilelink{
+
+  color: #FFE2E1;
+  text-decoration: none;
+  clear: right;
+  font-size: 140%;
+ }
+
+
+ .profilephoto{
+ 	border-radius: 50%;
+ 	width: 200px;
+ 	height: 200px;
+ 	margin:31px;
+ 	float: left;
+ 	margin-top: -104px;
+ 
+
+ }
+ .username{
+ 	color:#FFE2E1;
+ 	margin-top: 237px;
+ 	font-size: 37px;
+ }
+ .editProfile{
+ 	color:#FFE2E1;
+ 	margin-bottom:10px; 
+ 	background-color: #780145;
+ 	border-style: none;
+ 	font-size: 20px;
+ 	text-decoration: underline;
+ }
+ .userinfo{
+ 	height: 250px;
+    width: 550px;
+    margin-top: -104px;
+
+
+ }
+
+ .createPost{
+ 	color: #770145;
+ 	background-color: #EEE1E0;
+ 	padding: 5px;
+    border-radius: 5px;
+ }
+.userpostApost{
+	height: 210px;
+	width: 350px;
+	background-color: #FFFFFF;
+	border-radius: 5%;
+	margin-top: -60px;
+	margin-left: 35px;
+	border-color: #707070;
+	position: relative;
+	float: left;
+    clear: none; 
+	 
+
+}
+.texttype{
+	border:none;
+    overflow: auto;
+    width: 300px;
+    height: 150px;
+    resize: none;
+    margin-top: 5px;
+    padding: 5px;
+}
+.postbutton{
+	background-color: #770145;
+	color: #FFFEFE;
+	border-color: #770145;
+	border-radius: 25%;
+	width: 65px;
+	height: 30px;
+	font-size: 15px;
+	position: relative;
+	margin-right: 5px;
+	margin-top: -5px;
+  float: right;
+
+	
+
+}
+.addimagebutton{
+	width: 35px;
+	height: 35px;
+	margin-right: 230px;
+	margin-top: -29px;
+	margin-left:5px; 
+}
+
+.setofposts{
+	width: 60%;
+    height: 100% auto;
+    border: 1px solid #c3c3c3;
+	  flex-wrap: wrap;
+    align-content: initial;
+    float: right;
+    
+}
+
+.setofposts > div{
+	width: 643px;
+    height: auto;
+	background-color: white;
+	border-radius: 5%;
+	margin-left: 79px; 
+	margin-bottom:20px; 
+
+
+}
+.postprofilephoto{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 10px;
+}
+.firstPostname{
+	color: #770145;
+	font-size: 26px;
+	margin: 10px;
+}
+.firstpostcontent{
+	margin-top: 20px;
+}
+.contentimage{
+	width: 300px;
+	height: 350px;
+}
+.likeicon{
+	width: 20px;
+	height: 20px;
+}
+.likeicon{
+	float: left;
+    clear: none; 
+    margin-left: 10px;
+
+}
+.numberoflikes{
+	color: #770145;
+	float: left;
+    clear: none;
+}
+.buttonlike:active{
+  background-color: #770145;
+  color: white;
+}
+.buttonlike{
+	width: 643px;
+	height: 50px;
+	margin-top: 10px;
+	background-color: white;
+	color: #770145;
+	font-size: 20px;
+	border-style: solid none none none;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popuplikes{
+	visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popuplikes::after{
+	content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

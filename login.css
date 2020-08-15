@@ -1,0 +1,65 @@
+body {
+  background-image:url("Photo.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:"Roboto";
+
+}
+h1{
+	padding-left: 440px;
+	padding-top: 80px;
+	font-family:"Roboto";
+	font-size: 70px;
+	font-style: oblique;
+	color: #770145;
+	
+}
+input
+{
+	width: 270px;
+	border: 2px solid #aaa;
+	border-radius: 15px;
+	padding: 12px;
+	margin-left: 850px;
+	margin-top: 10px;
+
+}
+input[type=submit]
+{
+	color:#770145;
+	font-style: italic;
+	font-family:"Roboto";
+	font-size: 20px;
+	background-color: #ffe2e1;
+	font-weight: bold;
+}
+input[type=button]
+{
+	color:#770145;
+	font-style: italic;
+	font-family:"Roboto";
+	font-size: 20px;
+	background-color: #ffe2e1;
+	font-weight: bold;
+}
+button
+{
+	color:#770145;
+	font-style: italic;
+	font-family:"Roboto";
+	font-size: 20px;
+	background-color: #ffe2e1;
+	font-weight: bold;
+	width: 270px;
+	border: 2px solid #aaa;
+	border-radius: 15px;
+	padding: 12px;
+	margin-left: 850px;
+	margin-top: 10px;
+}
+p{
+	padding-left: 850px;
+	color: #fafafa;
+	font-family:"Roboto";
+}
+
